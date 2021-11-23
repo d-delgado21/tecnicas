@@ -2,11 +2,11 @@ import javax.swing.JOptionPane;
 public class Ingenieria {
     
 double promedio, parciall, parcial2, examenfinal;
-
+int prueba;
 public void programacion (){
-parciall=Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del primer parcial"));
-parcial2=Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del segundo parcial"));
-examenfinal=Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del examen final"));
+parciall=Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del primer parcial:"));
+parcial2=Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del segundo parcial:"));
+examenfinal=Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del examen final:"));
 promedio=(parciall+parcial2+examenfinal)/3;
 JOptionPane.showMessageDialog(null,"el promedio es "+ promedio);
 }
